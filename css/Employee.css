@@ -14,7 +14,7 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 80%;
+    margin-left: 80px;
 }
 .logo-content > img{
     border: 0px solid #42515F;
@@ -77,4 +77,18 @@ form{
     border:1px solid #ccc;
     border-radius: 4px;
     resize: vertical;
+}
+.profile-content{
+    display: flex;
+    flex-direction: row;
+}
+.profile-content > label{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.profile{
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 20px;
 }
